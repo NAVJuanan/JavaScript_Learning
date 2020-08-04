@@ -3,7 +3,7 @@
  *********************/
 
 // popup message
-alert("Hello JavaScript World");
+alert("Hello JavaScript World from JS file");
 
 // dialog window and read input
 let myVar = prompt("What is your name?");
