@@ -20,18 +20,6 @@ Programs:
 		<script type="text/javascript" src="index.js"></script>
 		https://www.tutorialsteacher.com/javascript/script-tag
 
-	- window.alert() -> shows a popup message  
-		https://devdocs.io/dom/window/alert
-		https://www.w3schools.com/jsref/met_win_alert.asp
-
-	- window.prompt() -> shows a dialog window with a message and receives an input text  
-		https://devdocs.io/dom/window/prompt
-		https://www.w3schools.com/jsref/met_win_prompt.asp
-
-	- console.log() -> shows a message in the console
-		https://devdocs.io/dom/console/log
-		https://www.w3schools.com/jsref/met_console_log.asp
-
 	- let -> declares a variable (recommended)
 		https://devdocs.io/javascript/statements/let
 		https://www.w3schools.com/js/js_let.asp
@@ -57,10 +45,30 @@ Programs:
 
 	- string interpolation -> console.log(`The value of the variable "message" of type ${typeof message} is: ${message}`);
 
+	- undefined -> primitive data type for variable with no value assigned
+		https://devdocs.io/javascript/global_objects/undefined
+		https://www.tutorialsteacher.com/javascript/javascript-null-and-undefined
+
+	- null -> primitive data type for variable with 'null' value assigned (by default is an object)
+		https://devdocs.io/javascript/global_objects/null
+		https://www.tutorialsteacher.com/javascript/javascript-null-and-undefined
+
 	- typeof() -> shows the data type of a value or variable (number, string, boolean, object, undefined, function) 
 		https://devdocs.io/javascript/operators/typeof
 		https://www.w3schools.com/js/js_type_conversion.asp
 		https://www.w3schools.com/js/js_datatypes.asp
+
+	- window.alert() -> shows a popup message  
+		https://devdocs.io/dom/window/alert
+		https://www.w3schools.com/jsref/met_win_alert.asp
+
+	- window.prompt() -> shows a dialog window with a message and receives an input text  
+		https://devdocs.io/dom/window/prompt
+		https://www.w3schools.com/jsref/met_win_prompt.asp
+
+	- console.log() -> shows a message in the console
+		https://devdocs.io/dom/console/log
+		https://www.w3schools.com/jsref/met_console_log.asp
 
 	- function -> declares a function  
 		https://devdocs.io/javascript/statements/function

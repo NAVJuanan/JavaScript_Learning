@@ -33,6 +33,16 @@ let message;
 message = "Hi, this is a message";
 console.log(`The value of the variable 'message' of type ${typeof message} is: '${message}'`);
 
+
+// undefined
+let myUndefinedVar;
+console.log(`The value of the variable 'myUndefinedVar' of type ${typeof myUndefinedVar} is: '${myUndefinedVar}'`);
+
+
+// null
+let myObjectNullVar = null;
+console.log(`The value of the variable 'myObjectNullVar' of type ${typeof myObjectNullVar} is: '${myObjectNullVar}'`);
+
 // popup message
 alert("Hello JavaScript World from JS file");
 
@@ -43,13 +53,6 @@ console.info("info: My name is " + myVar);
 console.warn("warning: My name is " + myVar);
 console.error("error: My name is " + myVar);
 
-// data type of a variable or value
-let myUndefinedVar;
-let myObjectVar = null;
-
-console.log(typeof myUndefinedVar);
-console.log(typeof myObjectVar);
-console.log(typeof true);
 console.log(typeof printName);
 
 function printName(name) {
