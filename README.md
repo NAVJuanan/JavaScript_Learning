@@ -32,11 +32,6 @@ Programs:
 		https://devdocs.io/dom/console/log
 		https://www.w3schools.com/jsref/met_console_log.asp
 
-	- typeof() -> shows the data type of a value or variable (number, string, boolean, object, undefined, function) 
-		https://devdocs.io/javascript/operators/typeof
-		https://www.w3schools.com/js/js_type_conversion.asp
-		https://www.w3schools.com/js/js_datatypes.asp
-
 	- let -> declares a variable (recommended)
 		https://devdocs.io/javascript/statements/let
 		https://www.w3schools.com/js/js_let.asp
@@ -48,6 +43,24 @@ Programs:
 	- const -> declares a constant (recommended) 
 		https://devdocs.io/javascript/statements/const
 		https://www.w3schools.com/js/js_const.asp
+
+	- boolean -> primitive data type for true/false
+		https://www.tutorialsteacher.com/javascript/javascript-boolean
+
+	- number -> primitive data type for numbers (integer, decimal, exponential, hexadecimal, octal, binary)
+		https://www.w3schools.com/js/js_numbers.asp
+		https://www.tutorialsteacher.com/javascript/javascript-number
+
+	- string -> primitive data type for text
+		https://www.w3schools.com/js/js_strings.asp
+		https://www.tutorialsteacher.com/javascript/javascript-string
+
+	- string interpolation -> console.log(`The value of the variable "message" of type ${typeof message} is: ${message}`);
+
+	- typeof() -> shows the data type of a value or variable (number, string, boolean, object, undefined, function) 
+		https://devdocs.io/javascript/operators/typeof
+		https://www.w3schools.com/js/js_type_conversion.asp
+		https://www.w3schools.com/js/js_datatypes.asp
 
 	- function -> declares a function  
 		https://devdocs.io/javascript/statements/function
