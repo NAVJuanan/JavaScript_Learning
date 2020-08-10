@@ -53,10 +53,26 @@ Programs:
 		https://devdocs.io/javascript/global_objects/null
 		https://www.tutorialsteacher.com/javascript/javascript-null-and-undefined
 
-	- typeof() -> shows the data type of a value or variable (number, string, boolean, object, undefined, function) 
+	- typeof() -> shows the data type of a value or variable (boolean, number, string, undefined, symbol, object, function) 
 		https://devdocs.io/javascript/operators/typeof
 		https://www.w3schools.com/js/js_type_conversion.asp
 		https://www.w3schools.com/js/js_datatypes.asp
+
+	- console.log() -> shows a message in the console
+		https://devdocs.io/dom/console/log
+		https://www.w3schools.com/jsref/met_console_log.asp
+
+	- console.info() -> shows a message in the console (with an info icon)
+		https://devdocs.io/dom/console/info
+		https://www.w3schools.com/jsref/met_console_info.asp
+
+	- console.warn() -> shows a warning in the console (with a warning icon)
+		https://devdocs.io/dom/console/warn
+		https://www.w3schools.com/jsref/met_console_warn.asp
+
+	- console.error() -> shows an error in the console (with an error icon)
+		https://devdocs.io/dom/console/error
+		https://www.w3schools.com/jsref/met_console_error.asp
 
 	- window.alert() -> shows a popup message  
 		https://devdocs.io/dom/window/alert
@@ -66,9 +82,9 @@ Programs:
 		https://devdocs.io/dom/window/prompt
 		https://www.w3schools.com/jsref/met_win_prompt.asp
 
-	- console.log() -> shows a message in the console
-		https://devdocs.io/dom/console/log
-		https://www.w3schools.com/jsref/met_console_log.asp
+	- window.confirm() -> shows a confirmation box and receives a boolean result
+		https://devdocs.io/dom/window/confirm
+		https://www.w3schools.com/jsref/met_win_confirm.asp
 
 	- function -> declares a function  
 		https://devdocs.io/javascript/statements/function
