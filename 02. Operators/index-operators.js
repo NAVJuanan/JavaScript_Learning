@@ -2,6 +2,7 @@
  * JavaScript operators *
  ************************/
 
+
 // arithmetic operators
 let a = 5;
 let b = 3;
@@ -13,6 +14,7 @@ console.log("Division:       a / b = ", a / b);
 console.log("Remainder:      a % b = ", a % b);
 console.log("Exponential:    a ** b = ", a ** b);
 
+
 // increment 1
 a++;
 console.log("a++ = ", a);
@@ -21,8 +23,10 @@ console.log("a++ = ", a);
 a--;
 console.log("a-- = ", a);
 
+
 // relational operators
 console.log("Relational: >, >=, <, <=");
+
 
 // equility operators
 
@@ -31,6 +35,7 @@ console.log("1 === 1", 1 === 1);
 console.log("1 === '1'", 1 === "1");
 console.log("1 !== 1", 1 !== 1);
 console.log("1 !== '1'", 1 !== "1");
+
 // lose equility
 console.log("1 == 1", 1 == 1);
 console.log("1 == '1'", 1 == "1");

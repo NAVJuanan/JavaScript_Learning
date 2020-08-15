@@ -105,6 +105,9 @@ Programs:
 	- Remainder:      a % b
 	- Exponential:    a ** b
 
+	- Increment: ++
+	- Decrement: --
+
 	- Relational: >, >=, <, <=
 
 	- === -> strict equility operator (type + value)
@@ -124,22 +127,27 @@ Programs:
 	- if...else
 		https://devdocs.io/javascript/statements/if...else
 		https://www.w3schools.com/jsref/jsref_if.asp
+		https://www.tutorialsteacher.com/javascript/javascript-if-else-condition
 
 	- while
 		https://devdocs.io/javascript/statements/while
 		https://www.w3schools.com/jsref/jsref_while.asp
+		https://www.tutorialsteacher.com/javascript/javascript-while-loop
 
 	- do...while
 		https://devdocs.io/javascript/statements/do...while
 		https://www.w3schools.com/jsref/jsref_dowhile.asp
+		https://www.tutorialsteacher.com/javascript/javascript-while-loop
 
 	- switch
 		https://devdocs.io/javascript/statements/switch
 		https://www.w3schools.com/jsref/jsref_switch.asp
+		https://www.tutorialsteacher.com/javascript/javascript-switch
 
 	- for	
 		https://devdocs.io/javascript/statements/for
 		https://www.w3schools.com/jsref/jsref_for.asp
+		https://www.tutorialsteacher.com/javascript/javascript-for-loop
 
 
 
