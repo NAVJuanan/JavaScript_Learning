@@ -33,6 +33,7 @@ let message;
 message = "Hi, this is a message";
 console.log(`The value of the variable 'message' of type ${typeof message} is: '${message}'`);
 
+
 // undefined
 let myUndefinedVar;
 console.log(`The value of the variable 'myUndefinedVar' of type ${typeof myUndefinedVar} is: '${myUndefinedVar}'`);
@@ -43,11 +44,20 @@ let myObjectNullVar = null;
 console.log(`The value of the variable 'myObjectNullVar' of type ${typeof myObjectNullVar} is: '${myObjectNullVar}'`);
 
 
+// function 
+console.log(`The type of the function 'printName()' is: ${typeof printName}`);
+
+function printName(name) {
+  console.log(name);
+}
+
+
 // dialog window and read input
 let myVar = prompt("What is your name?");
 console.info(`info: My name is ${myVar}`);
 console.warn(`warning: My name is ${myVar}`);
 console.error(`error: My name is ${myVar}`);
+
 
 // confirm box and alert
 let isCorrect = confirm(`Is ${myVar} your name?`);
@@ -55,10 +65,4 @@ if (isCorrect) {
   alert(`Confirmed, ${myVar} is your name`);
 } else {
   alert(`Confirmed, ${myVar} is NOT your name`);
-}
-
-console.log(typeof printName);
-
-function printName(name) {
-  console.log(name);
 }

@@ -33,6 +33,7 @@ Programs:
 		https://www.w3schools.com/js/js_const.asp
 
 	- boolean -> primitive data type for true/false
+		https://www.w3schools.com/js/js_booleans.asp
 		https://www.tutorialsteacher.com/javascript/javascript-boolean
 
 	- number -> primitive data type for numbers (integer, decimal, exponential, hexadecimal, octal, binary)
@@ -52,6 +53,11 @@ Programs:
 	- null -> primitive data type for variable with 'null' value assigned (by default is an object)
 		https://devdocs.io/javascript/global_objects/null
 		https://www.tutorialsteacher.com/javascript/javascript-null-and-undefined
+
+	- function -> declares a function  
+		https://devdocs.io/javascript/statements/function
+		https://www.w3schools.com/js/js_functions.asp
+		https://www.tutorialsteacher.com/javascript/javascript-function
 
 	- typeof() -> shows the data type of a value or variable (boolean, number, string, undefined, symbol, object, function) 
 		https://devdocs.io/javascript/operators/typeof
@@ -86,13 +92,11 @@ Programs:
 		https://devdocs.io/dom/window/confirm
 		https://www.w3schools.com/jsref/met_win_confirm.asp
 
-	- function -> declares a function  
-		https://devdocs.io/javascript/statements/function
-		https://www.w3schools.com/js/js_functions.asp
-
 	- Comments -> /* */ or //
 
 	- "use strict" -> activates strict mode
+		https://www.w3schools.com/js/js_strict.asp
+		https://www.tutorialsteacher.com/javascript/javascript-strict
 
 
 
@@ -117,6 +121,7 @@ Programs:
 	
 	https://www.w3schools.com/js/js_operators.asp
 	https://www.w3schools.com/jsref/jsref_operators.asp
+	https://www.w3schools.com/js/js_comparisons.asp
 
 
 
