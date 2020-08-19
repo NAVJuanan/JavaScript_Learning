@@ -27,6 +27,9 @@ console.log("a-- = ", a);
 // relational operators
 console.log("Relational: >, >=, <, <=");
 
+// assignment operators
+console.log("Assignment: =, +=, -=, *=, /=");
+
 
 // equility operators
 
@@ -41,3 +44,11 @@ console.log("1 == 1", 1 == 1);
 console.log("1 == '1'", 1 == "1");
 console.log("1 != 1", 1 != 1);
 console.log("1 != '1'", 1 != "1");
+
+
+// logical operators
+console.log("Logical: && (and), || (or), ! (not)");
+
+
+// bitwise operators
+console.log("Bitwise: & (and), | (or), ^ (exclusive or), ~ (complement), << (left shift), >> (right shift)");

@@ -114,14 +114,21 @@ Programs:
 
 	- Relational: >, >=, <, <=
 
+	- Assignment: =, +=, -=, *=, /=
+
 	- === -> strict equility operator (type + value)
 	- == -> lose equility operator (value)
 	- !== -> strict distinct operator (type + value)
 	- != -> lose distinct operator (value)
-	
+
+	- Logical: && (and), || (or), ! (not)
+
+	- Bitwise: & (and), | (or), ^ (exclusive or), ~ (complement), << (left shift), >> (right shift)
+
 	https://www.w3schools.com/js/js_operators.asp
 	https://www.w3schools.com/jsref/jsref_operators.asp
 	https://www.w3schools.com/js/js_comparisons.asp
+	https://devdocs.io/javascript/operators/bitwise_operators
 
 
 
