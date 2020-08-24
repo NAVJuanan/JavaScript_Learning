@@ -198,6 +198,8 @@ Programs:
 		https://www.w3schools.com/jsref/jsref_touppercase.asp
 
 	- slice(start index, end index) -> returns a section of a string
+			-> zero-based index
+			-> end position not included
 		https://devdocs.io/javascript/global_objects/string/slice
 		https://www.w3schools.com/jsref/jsref_slice_string.asp
 
