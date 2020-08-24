@@ -181,6 +181,10 @@ Programs:
 		https://devdocs.io/javascript/global_objects/parsefloat
 		https://www.w3schools.com/jsref/jsref_parsefloat.asp
 
+	- toString() -> returns the value converted to a string
+		https://devdocs.io/javascript/global_objects/number/tostring
+		https://www.w3schools.com/jsref/jsref_tostring_number.asp
+
 	- length -> returns the size of a string
 		https://devdocs.io/javascript/global_objects/string/length
 		https://www.w3schools.com/jsref/jsref_length_string.asp
@@ -200,3 +204,6 @@ Programs:
 	- split(separator) -> splits a string into an array of strings by a separator
 		https://devdocs.io/javascript/global_objects/string/split
 		https://www.w3schools.com/jsref/jsref_split.asp
+
+	https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
+	https://www.tutorialsteacher.com/javascript/javascript-number

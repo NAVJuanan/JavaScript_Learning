@@ -21,6 +21,8 @@ console.log("Convert '25.75' to a float", parseFloat("25.75"));
 
 // convert to string
 console.log("Convert '25' to a string", String(25));
+const myNumber = 15.43;
+console.log("Convert a number value to a string", myNumber, myNumber.toString());
 
 
 // string methods & properties
