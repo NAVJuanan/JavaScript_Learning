@@ -4,7 +4,7 @@
 
 
 // if...else
-const hour = Number.parseInt(prompt("What time is it?"));
+const hour = parseInt(prompt("What time is it?"));
 
 if (hour > 0 && hour <= 12) {
     document.write(`It is ${hour} o'clock. It is morning <br/>`);
