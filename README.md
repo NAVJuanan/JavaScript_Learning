@@ -197,6 +197,13 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/touppercase
 		https://www.w3schools.com/jsref/jsref_touppercase.asp
 
+	- trim() -> delete the initial and ending white spaces
+	- includes() -> returns if the string includes a substring
+	- startsWith() -> returns if the string starts with a substring
+	- endsWith() -> returns if the string ends with a substring
+	- indexOf() -> returns the zero-based index of a substring
+	- replace() -> replaces a substring
+
 	- slice(start index, end index) -> returns a section of a string
 			-> zero-based index
 			-> end position not included
