@@ -197,12 +197,114 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/touppercase
 		https://www.w3schools.com/jsref/jsref_touppercase.asp
 
-	- trim() -> delete the initial and ending white spaces
-	- includes() -> returns if the string includes a substring
-	- startsWith() -> returns if the string starts with a substring
-	- endsWith() -> returns if the string ends with a substring
+	- trim() -> removes the initial and ending whitespace
+		https://devdocs.io/javascript/global_objects/string/trim
+		https://www.w3schools.com/jsref/jsref_trim_string.asp
+
+	- trimStart() or trimLeft -> removes the initial whitespace
+		https://devdocs.io/javascript/global_objects/string/trimstart
+
+	- trimEnd() or trimRight -> removes the ending whitespace
+		https://devdocs.io/javascript/global_objects/string/trimend
+
+	- includes() -> returns true/false if the string includes a substring
+		https://devdocs.io/javascript/global_objects/string/includes
+		https://www.w3schools.com/jsref/jsref_includes.asp
+		
+	- startsWith() -> returns true/false if the string starts with a substring
+		https://devdocs.io/javascript/global_objects/string/startswith
+		https://www.w3schools.com/jsref/jsref_startswith.asp
+
+	- endsWith() -> returns true/false if the string ends with a substring
+		https://devdocs.io/javascript/global_objects/string/endswith
+		https://www.w3schools.com/jsref/jsref_endswith.asp
+
 	- indexOf() -> returns the zero-based index of a substring
+		https://devdocs.io/javascript/global_objects/string/indexof
+		https://www.w3schools.com/jsref/jsref_indexof.asp
+
 	- replace() -> replaces a substring
+		https://devdocs.io/javascript/global_objects/string/replace
+		https://www.w3schools.com/jsref/jsref_replace.asp
+
+	- slice(start index, end index) -> returns a section of a string
+			-> zero-based index
+			-> end position not included
+		https://devdocs.io/javascript/global_objects/string/slice
+		https://www.w3schools.com/jsref/jsref_slice_string.asp
+
+	- split(separator) -> splits a string into an array of strings by a separator
+		https://devdocs.io/javascript/global_objects/string/split
+		https://www.w3schools.com/jsref/jsref_split.asp
+
+	https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
+	https://www.tutorialsteacher.com/javascript/javascript-number
+
+
+
+ - 05. Dates & Math library
+
+	- Number() -> converts a value to a number (integer/float)
+		https://devdocs.io/javascript/global_objects/number
+		https://www.w3schools.com/jsref/jsref_number.asp
+
+	- String() -> converts a value to a string
+		https://devdocs.io/javascript/global_objects/string
+		https://www.w3schools.com/jsref/jsref_string.asp
+
+	- parseInt() -> converts a value to an integer
+		https://devdocs.io/javascript/global_objects/parseint
+		https://www.w3schools.com/jsref/jsref_parseint.asp
+
+	- parseFloat() -> converts a value to a float
+		https://devdocs.io/javascript/global_objects/parsefloat
+		https://www.w3schools.com/jsref/jsref_parsefloat.asp
+
+	- toString() -> returns the value converted to a string
+		https://devdocs.io/javascript/global_objects/number/tostring
+		https://www.w3schools.com/jsref/jsref_tostring_number.asp
+
+	- length -> returns the size of a string
+		https://devdocs.io/javascript/global_objects/string/length
+		https://www.w3schools.com/jsref/jsref_length_string.asp
+
+	- toLowerCase() -> converts a string to lowercase
+		https://devdocs.io/javascript/global_objects/string/tolowercase
+		https://www.w3schools.com/jsref/jsref_tolowercase.asp
+
+	- toUpperCase() -> converts a string to uppercase
+		https://devdocs.io/javascript/global_objects/string/touppercase
+		https://www.w3schools.com/jsref/jsref_touppercase.asp
+
+	- trim() -> removes the initial and ending whitespace
+		https://devdocs.io/javascript/global_objects/string/trim
+		https://www.w3schools.com/jsref/jsref_trim_string.asp
+
+	- trimStart() or trimLeft -> removes the initial whitespace
+		https://devdocs.io/javascript/global_objects/string/trimstart
+
+	- trimEnd() or trimRight -> removes the ending whitespace
+		https://devdocs.io/javascript/global_objects/string/trimend
+
+	- includes() -> returns true/false if the string includes a substring
+		https://devdocs.io/javascript/global_objects/string/includes
+		https://www.w3schools.com/jsref/jsref_includes.asp
+		
+	- startsWith() -> returns true/false if the string starts with a substring
+		https://devdocs.io/javascript/global_objects/string/startswith
+		https://www.w3schools.com/jsref/jsref_startswith.asp
+
+	- endsWith() -> returns true/false if the string ends with a substring
+		https://devdocs.io/javascript/global_objects/string/endswith
+		https://www.w3schools.com/jsref/jsref_endswith.asp
+
+	- indexOf() -> returns the zero-based index of a substring
+		https://devdocs.io/javascript/global_objects/string/indexof
+		https://www.w3schools.com/jsref/jsref_indexof.asp
+
+	- replace() -> replaces a substring
+		https://devdocs.io/javascript/global_objects/string/replace
+		https://www.w3schools.com/jsref/jsref_replace.asp
 
 	- slice(start index, end index) -> returns a section of a string
 			-> zero-based index
