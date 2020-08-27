@@ -207,23 +207,23 @@ Programs:
 	- trimEnd() or trimRight -> removes the ending whitespace
 		https://devdocs.io/javascript/global_objects/string/trimend
 
-	- includes() -> returns true/false if the string includes a substring
+	- includes(substring) -> returns true/false if the string includes a substring
 		https://devdocs.io/javascript/global_objects/string/includes
 		https://www.w3schools.com/jsref/jsref_includes.asp
 		
-	- startsWith() -> returns true/false if the string starts with a substring
+	- startsWith(substring) -> returns true/false if the string starts with a substring
 		https://devdocs.io/javascript/global_objects/string/startswith
 		https://www.w3schools.com/jsref/jsref_startswith.asp
 
-	- endsWith() -> returns true/false if the string ends with a substring
+	- endsWith(substring) -> returns true/false if the string ends with a substring
 		https://devdocs.io/javascript/global_objects/string/endswith
 		https://www.w3schools.com/jsref/jsref_endswith.asp
 
-	- indexOf() -> returns the zero-based index of a substring
+	- indexOf(substring) -> returns the zero-based index of a substring
 		https://devdocs.io/javascript/global_objects/string/indexof
 		https://www.w3schools.com/jsref/jsref_indexof.asp
 
-	- replace() -> replaces a substring
+	- replace(substring, replacedsubstring) -> replaces a substring
 		https://devdocs.io/javascript/global_objects/string/replace
 		https://www.w3schools.com/jsref/jsref_replace.asp
 
@@ -244,77 +244,40 @@ Programs:
 
  - 05. Dates & Math library
 
-	- Number() -> converts a value to a number (integer/float)
-		https://devdocs.io/javascript/global_objects/number
-		https://www.w3schools.com/jsref/jsref_number.asp
+	- date -> object data type for dates and times
+		https://devdocs.io/javascript/global_objects/date
+		https://www.w3schools.com/js/js_dates.asp
+		https://www.w3schools.com/jsref/jsref_obj_date.asp
+		https://www.tutorialsteacher.com/javascript/javascript-date
+		https://www.tutorialsteacher.com/javascript/javascript-date-methods-reference
 
-	- String() -> converts a value to a string
-		https://devdocs.io/javascript/global_objects/string
-		https://www.w3schools.com/jsref/jsref_string.asp
 
-	- parseInt() -> converts a value to an integer
-		https://devdocs.io/javascript/global_objects/parseint
-		https://www.w3schools.com/jsref/jsref_parseint.asp
+	- Math.floor(number) -> returns the lowest integer of a given number
+		https://devdocs.io/javascript/global_objects/math/floor
+		https://www.w3schools.com/jsref/jsref_floor.asp
 
-	- parseFloat() -> converts a value to a float
-		https://devdocs.io/javascript/global_objects/parsefloat
-		https://www.w3schools.com/jsref/jsref_parsefloat.asp
+	- Math.round(number) -> returns the nearest integer of a given number
+		https://devdocs.io/javascript/global_objects/math/round
+		https://www.w3schools.com/jsref/jsref_round.asp
 
-	- toString() -> returns the value converted to a string
-		https://devdocs.io/javascript/global_objects/number/tostring
-		https://www.w3schools.com/jsref/jsref_tostring_number.asp
+	- Math.pow(base, exponent) -> returns the calculation of the base to the exponent power
+		https://devdocs.io/javascript/global_objects/math/pow
+		https://www.w3schools.com/jsref/jsref_pow.asp
 
-	- length -> returns the size of a string
-		https://devdocs.io/javascript/global_objects/string/length
-		https://www.w3schools.com/jsref/jsref_length_string.asp
+	- Math.random() -> returns a random number between 0 and less than 1
+		https://devdocs.io/javascript/global_objects/math/random
+		https://www.w3schools.com/jsref/jsref_random.asp
 
-	- toLowerCase() -> converts a string to lowercase
-		https://devdocs.io/javascript/global_objects/string/tolowercase
-		https://www.w3schools.com/jsref/jsref_tolowercase.asp
+	- Math.max() -> returns the highest number of a given series
+		https://devdocs.io/javascript/global_objects/math/max
+		https://www.w3schools.com/jsref/jsref_max.asp
 
-	- toUpperCase() -> converts a string to uppercase
-		https://devdocs.io/javascript/global_objects/string/touppercase
-		https://www.w3schools.com/jsref/jsref_touppercase.asp
+	- Math.min() -> returns the lowest number of a given series
+		https://devdocs.io/javascript/global_objects/math/min
+		https://www.w3schools.com/jsref/jsref_min.asp
 
-	- trim() -> removes the initial and ending whitespace
-		https://devdocs.io/javascript/global_objects/string/trim
-		https://www.w3schools.com/jsref/jsref_trim_string.asp
+	https://devdocs.io/javascript/global_objects/math
+	https://www.w3schools.com/jsref/jsref_obj_math.asp
 
-	- trimStart() or trimLeft -> removes the initial whitespace
-		https://devdocs.io/javascript/global_objects/string/trimstart
 
-	- trimEnd() or trimRight -> removes the ending whitespace
-		https://devdocs.io/javascript/global_objects/string/trimend
 
-	- includes() -> returns true/false if the string includes a substring
-		https://devdocs.io/javascript/global_objects/string/includes
-		https://www.w3schools.com/jsref/jsref_includes.asp
-		
-	- startsWith() -> returns true/false if the string starts with a substring
-		https://devdocs.io/javascript/global_objects/string/startswith
-		https://www.w3schools.com/jsref/jsref_startswith.asp
-
-	- endsWith() -> returns true/false if the string ends with a substring
-		https://devdocs.io/javascript/global_objects/string/endswith
-		https://www.w3schools.com/jsref/jsref_endswith.asp
-
-	- indexOf() -> returns the zero-based index of a substring
-		https://devdocs.io/javascript/global_objects/string/indexof
-		https://www.w3schools.com/jsref/jsref_indexof.asp
-
-	- replace() -> replaces a substring
-		https://devdocs.io/javascript/global_objects/string/replace
-		https://www.w3schools.com/jsref/jsref_replace.asp
-
-	- slice(start index, end index) -> returns a section of a string
-			-> zero-based index
-			-> end position not included
-		https://devdocs.io/javascript/global_objects/string/slice
-		https://www.w3schools.com/jsref/jsref_slice_string.asp
-
-	- split(separator) -> splits a string into an array of strings by a separator
-		https://devdocs.io/javascript/global_objects/string/split
-		https://www.w3schools.com/jsref/jsref_split.asp
-
-	https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
-	https://www.tutorialsteacher.com/javascript/javascript-number
