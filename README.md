@@ -281,3 +281,39 @@ Programs:
 
 
 
+ - 06. Arrays
+
+	- array [] -> object data type for multiple values
+
+	- length -> returns the size of an array
+		https://devdocs.io/javascript/global_objects/array/length
+		https://www.w3schools.com/jsref/jsref_length_array.asp
+
+	- push() -> adds new elements to an array at the end
+		https://devdocs.io/javascript/global_objects/array/push
+		https://www.w3schools.com/jsref/jsref_push.asp
+
+	- pop() -> remove elements of an array at the end
+		https://devdocs.io/javascript/global_objects/array/pop
+		https://www.w3schools.com/jsref/jsref_pop.asp
+
+	- unshift() -> adds new elements to an array at the beginning
+		https://devdocs.io/javascript/global_objects/array/unshift
+		https://www.w3schools.com/jsref/jsref_unshift.asp
+
+	- shift() -> remove elements of an array at the beginning
+		https://devdocs.io/javascript/global_objects/array/shift
+		https://www.w3schools.com/jsref/jsref_shift.asp
+
+	- splice(index, number of elements to remove, elements to add) -> adds/removes elements of an array
+			-> zero-based index
+			-> elements to add are optional
+		https://devdocs.io/javascript/global_objects/array/splice
+		https://www.w3schools.com/jsref/jsref_splice.asp
+
+	https://www.w3schools.com/jsref/jsref_obj_array.asp
+	https://www.w3schools.com/js/js_arrays.asp
+	https://www.w3schools.com/js/js_array_iteration.asp
+	https://www.w3schools.com/js/js_array_methods.asp
+	https://www.tutorialsteacher.com/javascript/javascript-array
+	https://www.tutorialsteacher.com/javascript/javascript-array-methods-reference
