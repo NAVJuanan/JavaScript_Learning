@@ -285,7 +285,18 @@ Programs:
 
 	- array [] -> object data type for multiple values
 
+	- for...in
+		https://devdocs.io/javascript/statements/do...while
+		https://www.w3schools.com/jsref/jsref_dowhile.asp
+		https://www.tutorialsteacher.com/javascript/javascript-while-loop
+
+	- for...of
+		https://devdocs.io/javascript/statements/do...while
+		https://www.w3schools.com/jsref/jsref_dowhile.asp
+		https://www.tutorialsteacher.com/javascript/javascript-while-loop
+
 	- length -> returns the size of an array
+			-> empty the array: length = 0
 		https://devdocs.io/javascript/global_objects/array/length
 		https://www.w3schools.com/jsref/jsref_length_array.asp
 
@@ -310,6 +321,32 @@ Programs:
 			-> elements to add are optional
 		https://devdocs.io/javascript/global_objects/array/splice
 		https://www.w3schools.com/jsref/jsref_splice.asp
+
+	- indexOf(element, start index) -> returns the zero-based index of a given element from the given index
+			-> zero-based index
+			-> start index is optional
+		https://devdocs.io/javascript/global_objects/array/indexof
+		https://www.w3schools.com/jsref/jsref_indexof_array.asp
+
+	- lastIndexOf(element, start index) -> returns the zero-based index of a given element from the given index
+			-> zero-based index
+			-> start index is optional
+		https://devdocs.io/javascript/global_objects/array/lastindexof
+		https://www.w3schools.com/jsref/jsref_lastindexof_array.asp
+
+	- includes(element) -> returns true/false if the array includes a given element
+		https://devdocs.io/javascript/global_objects/string/includes
+		https://www.w3schools.com/jsref/jsref_includes.asp
+
+	- sort() -> sorts the elements of an array
+			-> previously converted into string
+		https://devdocs.io/javascript/global_objects/array/sort
+		https://www.w3schools.com/jsref/jsref_sort.asp
+
+	- reverse() -> sorts the elements of an array in reverse
+			-> previously converted into string
+		https://devdocs.io/javascript/global_objects/array/reverse
+		https://www.w3schools.com/jsref/jsref_reverse.asp
 
 	https://www.w3schools.com/jsref/jsref_obj_array.asp
 	https://www.w3schools.com/js/js_arrays.asp
