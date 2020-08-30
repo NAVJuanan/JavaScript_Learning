@@ -348,6 +348,20 @@ Programs:
 		https://devdocs.io/javascript/global_objects/array/reverse
 		https://www.w3schools.com/jsref/jsref_reverse.asp
 
+	- join() -> converts the elements of an array into a string
+		https://devdocs.io/javascript/global_objects/array/join
+		https://www.w3schools.com/jsref/jsref_join.asp
+
+	- concat() -> combines the elements of 2 or more arrays
+		https://devdocs.io/javascript/global_objects/array/concat
+		https://www.w3schools.com/jsref/jsref_concat_array.asp
+
+	- slice(start index, end index) -> separates the elements of an array into other array
+			-> zero-based index
+			-> end position not included
+		https://devdocs.io/javascript/global_objects/array/slice
+		https://www.w3schools.com/jsref/jsref_slice_array.asp
+
 	https://www.w3schools.com/jsref/jsref_obj_array.asp
 	https://www.w3schools.com/js/js_arrays.asp
 	https://www.w3schools.com/js/js_array_iteration.asp

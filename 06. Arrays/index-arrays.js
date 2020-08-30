@@ -65,22 +65,22 @@ for (let i = 0; i < myNumberArray.length; i++) {
 // for..of
 console.log("");
 console.log("Iterating the array with 'for..of'");
-for (let element of myNumberArray) {
-    console.log(`Element of 'myNumberArray' is ${element}`);
+for (let num of myNumberArray) {
+    console.log(`Element of 'myNumberArray' is ${num}`);
 }
 
 // for..in
 console.log("");
 console.log("Iterating the array with 'for..in'");
-for (let element in myNumberArray) {
-    console.log(`Element ${element} of 'myNumberArray' is ${myNumberArray[element]}`);
+for (let i in myNumberArray) {
+    console.log(`Element ${i} of 'myNumberArray' is ${myNumberArray[i]}`);
 }
 
 // foreach
 console.log("");
 console.log("Iterating the array with 'foreach'");
-for (let element of myNumberArray) {
-    console.log(`Element of 'myNumberArray' is ${element}`);
+for (let i of myNumberArray) {
+    console.log(`Element of 'myNumberArray' is ${i}`);
 }
 
 
@@ -93,3 +93,24 @@ console.log("Iterating the multidimensional array");
 for (let element of myVariableArray) {
     console.log(`Elements of 'myVariableArray' are ${element}`);
 }
+
+
+// join
+const myStringVar = myVariableArray.join();
+console.log("");
+console.log("after join() method the multidimensional array:", myStringVar);
+
+
+// split
+const myNewVariableArray = myStringVar.split(",");
+console.log("after split() method the new array of strings:", myNewVariableArray);
+
+
+// concat
+myVariableArray1.concat(myVariableArray2);
+console.log("after concat() method the elements of 'myVariableArray1' are:", myVariableArray1);
+
+
+// slice
+myVariableArray2 = myVariableArray1.slice(2,4);
+console.log("after slice() method the elements of 'myVariableArray2' are:", myVariableArray2);
