@@ -285,15 +285,13 @@ Programs:
 
 	- array [] -> object data type for multiple values
 
-	- for...in
-		https://devdocs.io/javascript/statements/do...while
-		https://www.w3schools.com/jsref/jsref_dowhile.asp
-		https://www.tutorialsteacher.com/javascript/javascript-while-loop
-
 	- for...of
-		https://devdocs.io/javascript/statements/do...while
-		https://www.w3schools.com/jsref/jsref_dowhile.asp
-		https://www.tutorialsteacher.com/javascript/javascript-while-loop
+		https://devdocs.io/javascript/statements/for...of
+		https://www.w3schools.com/jsref/jsref_forof.asp
+
+	- for...in
+		https://devdocs.io/javascript/statements/for...in
+		https://www.w3schools.com/jsref/jsref_forin.asp
 
 	- length -> returns the size of an array
 			-> empty the array: length = 0
@@ -368,3 +366,18 @@ Programs:
 	https://www.w3schools.com/js/js_array_methods.asp
 	https://www.tutorialsteacher.com/javascript/javascript-array
 	https://www.tutorialsteacher.com/javascript/javascript-array-methods-reference
+
+
+
+ - 07. Objects
+
+	- object {} -> object data type for multiple properties, values and methods
+
+	- for...in
+		https://devdocs.io/javascript/statements/for...in
+		https://www.w3schools.com/jsref/jsref_forin.asp
+
+	https://devdocs.io/javascript-object/
+	https://www.w3schools.com/js/js_objects.asp
+	https://www.tutorialsteacher.com/javascript/javascript-object
+
