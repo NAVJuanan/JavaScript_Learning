@@ -284,6 +284,7 @@ Programs:
  - 06. Arrays
 
 	- array [] -> object data type for multiple values
+			-> zero-based index
 
 	- for...of
 		https://devdocs.io/javascript/statements/for...of
@@ -376,6 +377,10 @@ Programs:
 	- for...in
 		https://devdocs.io/javascript/statements/for...in
 		https://www.w3schools.com/jsref/jsref_forin.asp
+
+	- delete -> removes a property from an object
+		https://devdocs.io/javascript/operators/delete
+		https://www.w3schools.com/js/js_object_properties.asp
 
 	https://devdocs.io/javascript-object/
 	https://www.w3schools.com/js/js_objects.asp
