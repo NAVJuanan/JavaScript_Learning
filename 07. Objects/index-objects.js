@@ -30,6 +30,7 @@ for (element in myObject) {
 
 console.table(myObject);
 myObject.drawRadius();
+console.log("The calculation of the radius is:", myObject.totalRadius);
 
 
 // delete property
