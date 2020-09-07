@@ -374,6 +374,11 @@ Programs:
 
 	- object {} -> object data type for multiple properties, values and methods
 
+	- this -> points the owner of the object
+		https://devdocs.io/javascript/operators/this
+		https://www.w3schools.com/js/js_object_methods.asp
+		https://www.tutorialsteacher.com/javascript/this-keyword-in-javascript
+
 	- for...in
 		https://devdocs.io/javascript/statements/for...in
 		https://www.w3schools.com/jsref/jsref_forin.asp
@@ -381,6 +386,10 @@ Programs:
 	- delete -> removes a property from an object
 		https://devdocs.io/javascript/operators/delete
 		https://www.w3schools.com/js/js_object_properties.asp
+
+	- console.table() -> shows tabular data in the console formatted as a table
+		https://devdocs.io/dom/console/table
+		https://www.w3schools.com/jsref/met_console_table.asp
 
 	https://devdocs.io/javascript-object/
 	https://www.w3schools.com/js/js_objects.asp
