@@ -376,6 +376,7 @@ Programs:
 
 	- this -> points the owner of the object
 		https://devdocs.io/javascript/operators/this
+		https://www.w3schools.com/js/js_this.asp
 		https://www.w3schools.com/js/js_object_methods.asp
 		https://www.tutorialsteacher.com/javascript/this-keyword-in-javascript
 
@@ -394,4 +395,34 @@ Programs:
 	https://devdocs.io/javascript-object/
 	https://www.w3schools.com/js/js_objects.asp
 	https://www.tutorialsteacher.com/javascript/javascript-object
+
+
+
+ - 08. Functions
+
+	- function {} -> function data type that can be called, receives parameters and return values. Functions are objects
+
+		-> function declaration: regular function. Can be called before being declarated (hoisting)
+			printName("Peter");
+			function printName(name) { console.log(name + " printed by a function declaration"); }
+
+			https://www.w3schools.com/js/js_hoisting.asp
+			https://www.tutorialsteacher.com/javascript/javascript-hoisting
+
+		-> function expression: stored in a variable. Can be called by the variable name. Cannot be called before being declarated
+			const firstName = function printFirstName(name) { console.log(name + " printed by a function expression"); }
+			firstName("John");
+
+		-> anonymous function: stored in a variable. Can be called by the variable name. Cannot be called before being declarated
+			const name = function(name) { console.log(name + " printed by an anonymous function"); }
+			name("Helen");
+
+	- arguments[] -> object of a function that contains an array with the arguments passed to a function
+		https://devdocs.io/javascript/functions/arguments
+
+	https://devdocs.io/javascript/functions
+	https://www.w3schools.com/js/js_functions.asp
+	https://www.tutorialsteacher.com/javascript/javascript-function
+	
+
 
