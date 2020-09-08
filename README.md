@@ -417,6 +417,13 @@ Programs:
 			const name = function(name) { console.log(name + " printed by an anonymous function"); }
 			name("Helen");
 
+		-> callback function: function with an anonymous function as argument. Used for events
+			const lastName = function(name) { return "Mr. " + name; }
+			function nameAndAge(callback, age) { console.log(`Print callback function with values name: ${callback} and age: ${age}`); }
+			nameAndAge(lastName("Fred"), 25);
+
+		-> nested functions: function with one or more inner functions
+
 	- arguments[] -> object of a function that contains an array with the arguments passed to a function
 		https://devdocs.io/javascript/functions/arguments
 

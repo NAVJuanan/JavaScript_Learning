@@ -32,8 +32,27 @@ console.log(`The type of the anonymous function 'name' is: ${typeof name}`);
 name("Helen");
 
 
-// arguments object
+// arguments object & default parameters
+console.log("");
 printNumbers("Peter", 1, true);
-function printNumbers() {
+
+function printNumbers(name, num, show, optional = "optional parameter") {
     console.log("Arguments of function 'printNumbers(Peter, 1, true)'", arguments.length, arguments);
+    console.log("parameter 'name':", name);
+    console.log("parameter 'num':", num);
+    console.log("parameter 'show':", show);
+    console.log("parameter 'optional':", optional);
+}
+
+
+// callback function
+const lastName = function(name) {
+    return "Mr. " + name;
+}
+
+console.log("");
+nameAndAge(lastName("Fred"), 25);
+
+function nameAndAge(callback, age) {
+    console.log(`Print callback function with values name: ${callback} and age: ${age}`);
 }
