@@ -41,6 +41,7 @@ console.log(`The name entered ends with 'a': '${myName.endsWith("a")}'`);
 console.log(`The name entered contains an 'a' in the position: '${myName.indexOf("a")}'`);
 console.log(`The name entered replaced 'a' for 'e': '${myName.replace("a", "e")}'`);
 console.log(`The name entered splitted: '${myName.split(" ")}'`);
+console.log(`The name entered concatened: '${myName.concat(" ", myNumber)}'`);
 
 const modifiedName = myName.slice(0, 1).toUpperCase() + myName.slice(1, nameLength).toLowerCase();
 console.log(`Capitalize first letter of name entered: '${modifiedName}'`);

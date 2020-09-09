@@ -237,6 +237,10 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/split
 		https://www.w3schools.com/jsref/jsref_split.asp
 
+	- concat() -> appends a string at the end of other string
+		https://devdocs.io/javascript/global_objects/string/concat
+		https://www.w3schools.com/java/ref_string_concat.asp
+
 	https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
 	https://www.tutorialsteacher.com/javascript/javascript-number
 
