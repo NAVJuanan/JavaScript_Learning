@@ -223,6 +223,14 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/indexof
 		https://www.w3schools.com/jsref/jsref_indexof.asp
 
+	- search(regular expression) -> returns the zero-based index of a substring that matches with the regular expression
+		https://devdocs.io/javascript/global_objects/string/search
+		https://www.w3schools.com/jsref/jsref_search.asp
+
+	- match(regular expression) -> returns an array of strings if a substring matches with the regular expression
+		https://devdocs.io/javascript/global_objects/string/match
+		https://www.w3schools.com/jsref/jsref_match.asp
+
 	- replace(substring, replacedsubstring) -> replaces a substring
 		https://devdocs.io/javascript/global_objects/string/replace
 		https://www.w3schools.com/jsref/jsref_replace.asp
@@ -233,13 +241,23 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/slice
 		https://www.w3schools.com/jsref/jsref_slice_string.asp
 
+	- substring(start index, end index) -> returns a section of a string
+			-> zero-based index
+			-> end position not included
+		https://devdocs.io/javascript/global_objects/string/substring
+		https://www.w3schools.com/jsref/jsref_substring.asp
+
+	- charAt(index) -> returns the character of a string based on the index
+		https://devdocs.io/javascript/global_objects/string/charat
+		https://www.w3schools.com/jsref/jsref_charat.asp
+
 	- split(separator) -> splits a string into an array of strings by a separator
 		https://devdocs.io/javascript/global_objects/string/split
 		https://www.w3schools.com/jsref/jsref_split.asp
 
 	- concat() -> appends a string at the end of other string
 		https://devdocs.io/javascript/global_objects/string/concat
-		https://www.w3schools.com/java/ref_string_concat.asp
+		https://www.w3schools.com/jsref/jsref_concat_string.asp
 
 	https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
 	https://www.tutorialsteacher.com/javascript/javascript-number
