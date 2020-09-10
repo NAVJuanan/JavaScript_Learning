@@ -44,6 +44,18 @@ function printNumbers(name, num, show, optional = "optional parameter") {
     console.log("parameter 'optional':", optional);
 }
 
+// rest parameters
+console.log("");
+recieveFruits("Orange", "Lemon", "Tomato", "Watermelon");
+
+function recieveFruits(fruit1, fruit2, ...fruits) {
+
+    console.log("Function with rest parameters");
+    console.log("Fruit 1 is", fruit1);
+    console.log("Fruit 2 is", fruit2);
+    console.log("Other fruits are", fruits);
+}
+
 
 // callback function
 const lastName = function(name) {

@@ -446,8 +446,11 @@ Programs:
 
 		-> nested functions: function with one or more inner functions
 
-	- arguments[] -> object of a function that contains an array with the arguments passed to a function
+	- arguments [] -> object of a function that contains an array with the arguments passed to a function
 		https://devdocs.io/javascript/functions/arguments
+
+	- rest parameters (...args) -> allows to recieve an indefinite number of arguments as an array
+		https://devdocs.io/javascript/functions/rest_parameters
 
 	https://devdocs.io/javascript/functions
 	https://www.w3schools.com/js/js_functions.asp
