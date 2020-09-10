@@ -319,6 +319,10 @@ Programs:
 		https://devdocs.io/javascript/statements/for...in
 		https://www.w3schools.com/jsref/jsref_forin.asp
 
+	- forEach() -> method to iterate an array calling a callback function for each element
+		https://devdocs.io/javascript/global_objects/array/foreach
+		https://www.w3schools.com/jsref/jsref_foreach.asp
+
 	- length -> returns the size of an array
 			-> empty the array: length = 0
 		https://devdocs.io/javascript/global_objects/array/length
@@ -361,6 +365,22 @@ Programs:
 	- includes(element) -> returns true/false if the array includes a given element
 		https://devdocs.io/javascript/global_objects/string/includes
 		https://www.w3schools.com/jsref/jsref_includes.asp
+
+	- find(test function) -> returns the first element of the array that satisfies the given test
+			-> returns the element if found
+			-> returns undefined if not found
+		https://devdocs.io/javascript/global_objects/array/find
+		https://www.w3schools.com/jsref/jsref_find.asp
+
+	- findIndex(test function) -> returns the index of the first element of the array that satisfies the given test
+			-> returns the zero-based index if found
+			-> returns -1 if not found
+		https://devdocs.io/javascript/global_objects/array/findindex
+		https://www.w3schools.com/jsref/jsref_findindex.asp
+
+	- some(test function) -> returns true/false if the array includes an element that satisfies the given test
+		https://devdocs.io/javascript/global_objects/array/some
+		https://www.w3schools.com/jsref/jsref_some.asp
 
 	- sort() -> sorts the elements of an array
 			-> previously converted into string
@@ -442,9 +462,11 @@ Programs:
 			const name = function(name) { console.log(name + " printed by an anonymous function"); }
 			name("Helen");
 
-		-> arrow function:
+		-> arrow function: short syntax for function expression
 			const otherName = name => "Miss " + name + " called by an arrow function";
 			console.log(otherName("Helen"));
+
+			https://devdocs.io/javascript/functions/arrow_functions
 
 		-> callback function: function with an anonymous function as argument. Used for events
 			const lastName = function(name) { return "Mr. " + name; }

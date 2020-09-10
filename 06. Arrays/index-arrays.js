@@ -77,11 +77,16 @@ for (let i in myNumberArray) {
 }
 
 // foreach
+const printElement = (value, index, array) => console.log(`Element ${index} of 'myNumberArray' is ${value} and the complete array is ${array}`); //callback function
+
 console.log("");
-console.log("Iterating the array with 'foreach'");
-for (let i of myNumberArray) {
-    console.log(`Element of 'myNumberArray' is ${i}`);
-}
+console.log("Iterating the array with 'foreach' and callback function");
+myNumberArray.forEach(printElement);
+
+console.log("");
+console.log("Iterating the array with 'foreach' and callback inline");
+myNumberArray.forEach((value, index) => console.log(`Element ${index} of 'myNumberArray' is ${value}`)); //callback function
+
 
 
 // multidimensional array
