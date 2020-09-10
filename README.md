@@ -308,6 +308,9 @@ Programs:
 	- array [] -> object data type for multiple values
 			-> zero-based index
 
+	- spread operator [...args] -> allows to recieve an indefinite number of elements of other array
+		https://devdocs.io/javascript/operators/spread_syntax
+
 	- for...of
 		https://devdocs.io/javascript/statements/for...of
 		https://www.w3schools.com/jsref/jsref_forof.asp

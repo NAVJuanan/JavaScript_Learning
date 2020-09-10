@@ -86,7 +86,7 @@ for (let i of myNumberArray) {
 
 // multidimensional array
 const myVariableArray1 = [2, 4, false, "Hello"];
-const myVariableArray2 = ["Bye", true, 1];
+let myVariableArray2 = ["Bye", true, 1];
 const myVariableArray = [myVariableArray1, myVariableArray2];
 console.log("");
 console.log("Iterating the multidimensional array");
@@ -114,3 +114,11 @@ console.log("after concat() method the elements of 'myVariableArray1' are:", myV
 // slice
 myVariableArray2 = myVariableArray1.slice(2,4);
 console.log("after slice() method the elements of 'myVariableArray2' are:", myVariableArray2);
+
+
+// spread operator
+console.log("");
+const newFruits = ["Tomato", "Watermelon"];
+console.log(newFruits);
+const recieveFruits = ["Orange", "Lemon", ...newFruits];
+console.log("Array after spread operator", recieveFruits);
