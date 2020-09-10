@@ -68,3 +68,14 @@ nameAndAge(lastName("Fred"), 25);
 function nameAndAge(callback, age) {
     console.log(`Print callback function with values name: ${callback} and age: ${age}`);
 }
+
+
+// arrow function
+const otherName = name => "Miss " + name + " called by an arrow function";
+
+//const otherName = function(name) {
+//    return "Miss " + name + " called by an arrow function";
+//}
+
+console.log("");
+console.log(otherName("Helen"));

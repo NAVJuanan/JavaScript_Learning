@@ -442,6 +442,10 @@ Programs:
 			const name = function(name) { console.log(name + " printed by an anonymous function"); }
 			name("Helen");
 
+		-> arrow function:
+			const otherName = name => "Miss " + name + " called by an arrow function";
+			console.log(otherName("Helen"));
+
 		-> callback function: function with an anonymous function as argument. Used for events
 			const lastName = function(name) { return "Mr. " + name; }
 			function nameAndAge(callback, age) { console.log(`Print callback function with values name: ${callback} and age: ${age}`); }
