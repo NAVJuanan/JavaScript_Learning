@@ -259,6 +259,10 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/concat
 		https://www.w3schools.com/jsref/jsref_concat_string.asp
 
+	- repeat(n) -> returns the string copied n times
+		https://devdocs.io/javascript/global_objects/string/repeat
+		https://www.w3schools.com/jsref/jsref_repeat.asp
+
 	https://www.tutorialsteacher.com/javascript/javascript-string-methods-and-property
 	https://www.tutorialsteacher.com/javascript/javascript-number
 
@@ -366,19 +370,21 @@ Programs:
 		https://devdocs.io/javascript/global_objects/string/includes
 		https://www.w3schools.com/jsref/jsref_includes.asp
 
-	- find(test function) -> returns the first element of the array that satisfies the given test
+	- find(test function) -> returns the first element of the array that satisfies the given test function
 			-> returns the element if found
 			-> returns undefined if not found
+			-> useful for arrays of objects
 		https://devdocs.io/javascript/global_objects/array/find
 		https://www.w3schools.com/jsref/jsref_find.asp
 
-	- findIndex(test function) -> returns the index of the first element of the array that satisfies the given test
+	- findIndex(test function) -> returns the index of the first element of the array that satisfies the given test function
 			-> returns the zero-based index if found
 			-> returns -1 if not found
+			-> useful for arrays of objects
 		https://devdocs.io/javascript/global_objects/array/findindex
 		https://www.w3schools.com/jsref/jsref_findindex.asp
 
-	- some(test function) -> returns true/false if the array includes an element that satisfies the given test
+	- some(test function) -> returns true/false if the array includes an element that satisfies the given test function
 		https://devdocs.io/javascript/global_objects/array/some
 		https://www.w3schools.com/jsref/jsref_some.asp
 
