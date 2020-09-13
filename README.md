@@ -10,6 +10,11 @@ Documentation:
 	https://devdocs.io/javascript/
 	https://www.w3schools.com/js/default.asp
 
+HTML Tutorial:
+	https://developer.mozilla.org/es/docs/Web/HTML
+	https://devdocs.io/html/
+	https://www.w3schools.com/html/default.asp
+
 
 Programs:
 

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML5 Basics</title>
+</head>
+
+<body>
+  <!-- Anatomía de un documento html -->
+  <h2>Anatomía de un documento HTML</h2>
+  <p>
+    El documento se inicia con el elemento <strong>&lt;!DOCTYPE html&gt;</strong> que nos indica que es un documento HTML5. Es un elemengo de legado histórico que hay que incluir.
+    <br><br>
+    A continuación tenemos el elemento <strong>&lt;html lang="en"&gt; &lt;/html&gt;</strong> que es la raíz del documento y contendrá al resto de elementos.
+    <br>
+    Contiene el atributo <em>lang</em> para indicar el idioma del contenido a los navegadores y motores de búsqueda. Dentro tenemos los elementos &lt;head&gt; y &lt;body&gt;.
+    <br><br>
+    El elemento <strong>&lt;head&gt; &lt;/head&gt;</strong> es el contenedor de los parámetros no visibles como los metadatos, hojas de estilo, palabras clave para los motores de búsqueda, etc.
+    <br>
+    Contiene el elemento <strong>&lt;title&gt; &lt;/title&gt;</strong> para indicar el título de la pestaña del navegador. Por ejemplo: <strong>&lt;title&gt;HTML5 Basics&lt;/title&gt;</strong>
+    <br>
+    También contiene el elemento <strong>&lt;meta&gt;</strong> para indicar todo tipo de metadatos.
+    <br>
+    El atributo más importante es <em>charset</em> para indicar la codificación de la página. Por ejemplo: <strong>&lt;meta charset="utf-8"&gt;</strong>
+    <br>
+    Otros elementos contienen los atributos <em>name</em> y <em>content</em> para especificar el tipo de información y el contenido.
+    Por ejemplo: <strong>&lt;meta name="author" content="Juan Antonio"&gt;</strong>
+    <br><br>
+    El elemento <strong>&lt;body&gt; &lt;/body&gt;</strong> es el contenedor de todo lo que los visitantes de la página verán. El contenido de la página.
+  </p>
+  <br>
+
+  <!-- Estructura de un documento html -->
+  <p>
+    <em>&lt;!DOCTYPE html&gt;
+      <br>
+      &lt;html lang="en"&gt;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;head&gt;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;meta charset="UTF-8" /&gt;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0" /&gt;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;title>HTML5 Basics&lt;/title&gt;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;/head&gt;
+      <br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;body&gt;
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      &lt;/body&gt;
+      <br>
+      &lt;/html&gt;
+    </em>
+  </p>
+  <br>
+
+  <!-- Textos -->
+  <h2>Etiquetas para textos</h2>
+  <p>
+    &lt;!-- Podemos introducir comentarios que no son visibles para los usuarios --&gt;
+    <br><br>
+    Para introducir saltos de línea utilizamos la etiqueta <strong>&lt;br&gt;</strong>.
+    <br>
+    Para introducir espacios en blanco utilizamos la etiqueta <strong>&ampnbsp;</strong>.
+    <br>
+    Para introducir el carácter &lt; utilizamos la etiqueta <strong>&amplt;</strong>.
+    <br>
+    Para introducir el carácter &gt; utilizamos la etiqueta <strong>&ampgt;</strong>.
+    <br>
+    Para introducir el carácter &amp utilizamos la etiqueta <strong>&ampamp</strong>.
+    <br><br>
+    Dentro de la etiqueta <strong>&lt;p&gt; &lt;/p&gt;</strong> podemos escribir y agrupar párrafos.
+    <br>
+    Dentro de la etiqueta <strong>&lt;center&gt; &lt;/center&gt;</strong> podemos centrar el texto.
+    <br><br>
+    Con la etiqueta <strong>&lt;strong&gt; &lt;/strong&gt;</strong> escribimos en <strong>negrita</strong>.
+    <br>
+    Con la etiqueta <strong>&lt;em&gt; &lt;/em&gt;</strong> escribimos en <em>cursiva</em>.
+    <br><br>
+    Para introducir una línea horizontal usamos la etiqueta <strong>&lt;hr&gt;</strong>,
+    utilizando el atributo <em>size</em> para el tamaño y el atributo <em>noshade</em> para eliminar sombras.
+    Por ejemplo: <strong>&lt;hr size="3" noshade&gt;</strong>
+    <hr size="3" noshade>
+    Con las etiquetas que van desde <strong>&lt;h1&gt; &lt;/h1&gt;</strong> hasta <strong>&lt;h6&gt; &lt;/h6&gt;</strong> podemos formatear encabezados.
+  </p>
+  <h1>Texto en h1</h1>
+  <h2>Texto en h2</h2>
+  <h3>Texto en h3</h3>
+  <h4>Texto en h4</h4>
+  <h5>Texto en h5</h5>
+  <h6>Texto en h6</h6>
+  <br>
+
+  <!-- Listas -->
+  <h2>Etiquetas para listas</h2>
+  <p>Para crear una lista no ordenada utilizamos la etiqueta <strong>&lt;ul&gt; &lt;/ul&gt;</strong> y con cada elemento la etiqueta <strong>&lt;li&gt; &lt;/li&gt;</strong></p>
+  <ul>
+    <li>elemento 1</li>
+    <li>elemento 2</li>
+    <li>elemento 3</li>
+  </ul>
+  <p>Para crear una lista ordenada utilizamos la etiqueta <strong>&lt;ol&gt; &lt;/ol&gt;</strong> y con cada elemento la etiqueta <strong>&lt;li&gt; &lt;/li&gt;</strong></p>
+  <ol>
+    <li>elemento 1</li>
+    <li>elemento 2</li>
+    <li>elemento 3</li>
+  </ol>
+  <p>
+    Para crear una lista anidada utilizamos las etiquetas anteriores. Podemos utilizar el atributo <em>type</em> para seleccionar el estilo de lista.
+    Por ejemplo: <strong>&lt;ol type="a"&gt;</strong>
+  </p>
+  <ol type="a">
+    <li>elemento 1</li>
+    <li>elemento 2</li>
+    <ul>
+      <li>elemento 2.1</li>
+      <li>elemento 2.2</li>
+    </ul>
+    <li>elemento 3</li>
+  </ol>
+</body>
+
+</html>
