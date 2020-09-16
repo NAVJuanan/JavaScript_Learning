@@ -297,10 +297,78 @@
   <!-- Formularios -->
   <h2>Etiqueta para formularios</h2>
   <p>
-    La etiqueta para crear formularios es <strong>&lt;form&gt; &lt;/form&gt;</strong>.
-    <br>
-    Por ejemplo: <strong>&lt;form&gt;Todos los derechos reservados&ampcopy;&lt;/form&gt;</strong>
+    La etiqueta para crear formularios es <strong>&lt;form&gt; &lt;/form&gt;</strong> donde podremos crear:
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Labels mediante la etiqueta <strong>&lt;label&gt; &lt;/label&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Cajas de texto mediante la etiqueta <strong>&lt;input type="text"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Áreas de texto mediante la etiqueta <strong>&lt;textarea cols="30" rows="3"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Radio button mediante la etiqueta <strong>&lt;input type="radio" value="yes"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Select button mediante la etiqueta <strong>&lt;select&gt; &lt;/select&gt;</strong> que incluirá las diferentes opciones
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Botones mediante las siguientes etiquetas:
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    La etiqueta <strong>&lt;button&gt; &lt;/button&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    La etiqueta <strong>&lt;input type="submit"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Un selector de colores mediante la etiqueta <strong>&lt;input type="color"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Checkox mediante la etiqueta <strong>&lt;input type="checkbox"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Contraseñas enmascaradas mediante la etiqueta <strong>&lt;input type="password"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Calendarios mediante la etiqueta <strong>&lt;input type="date"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Rangos mediante la etiqueta <strong>&lt;input type="range"&gt;</strong>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;
+    Ficheros mediante la etiqueta <strong>&lt;input type="file"&gt;</strong>
   </p>
+  <br>
+  <form action="mailto:info@gmail.com" method="POST" enctype="text/plain">
+    <label for="nombre">Introduzca su nombre</label>
+    <input type="text" name="nombre" placeholder="Escriba su nombre">
+    <br><br>
+    <label for="descripcion">Descripción</label>
+    <textarea name="descripcion" id="" cols="30" rows="3"></textarea>
+    <br><br>
+    <label for="opciones1">Elija una opción</label>
+    <br>
+    <input type="radio" name="opciones1" value="yes">Sí
+    <br>
+    <input type="radio" name="opciones1" value="no">No
+    <br><br>
+    <label for="opciones2">Elija una opción</label>
+    <br>
+    <select name="opciones2" id="">
+      <option value="yes">Sí</option>
+      <option value="no">No</option>
+    </select>
+    <br><br>
+    <button>Enviar desde botón</button>
+    <br><br>
+    <input type="submit" name="envio" value="Enviar desde submit" id="">
+    <br><br>
+    <label for="color">Elija un color</label>
+    <input type="color" name="color" id="">
+    <br><br>
+    <label for="marcar">Marque si quiere</label>
+    <input type="checkbox" name="marcar" id="">
+    <br><br>
+    <label for="psw">Introduzca una contraseña</label>
+    <input type="password" name="psw" id="">
+    <br><br>
+    <label for="fecha">Seleccione un día</label>
+    <input type="date" name="fecha" id="">
+    <br><br>
+    <label for="rango">Seleccione un rango</label>
+    <input type="range" name="rango" id="">
+    <br><br>
+    <input type="file" name="fichero" id="">
+  </form>
   <br>
 
   <!-- Footer -->
