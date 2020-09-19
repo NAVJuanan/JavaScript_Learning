@@ -1,5 +1,9 @@
-/* Tag Selector */
+/* Universal Selector */
+* {
+    font-family: 'Times New Roman', Times, serif !important; 
+}
 
+/* Tag Selector */
 body {
     background-color: #eaf6f6;
 }
@@ -26,6 +30,26 @@ h2  {
 }
 
 /* Id Selector */
-#firstParagraph {
+#firstParagraph,
+#secondParagraph {
     color: #163331;
+}
+
+/* Parent-Child Selector */
+#thirdParagraph em {
+    color: red;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    background-color: #faf3dd;
+}
+
+input[type="submit"] {
+    background-color: greenyellow;
+}
+
+/* Event Class Selector */
+.changeParagraph:hover {
+    color: darkblue;
 }

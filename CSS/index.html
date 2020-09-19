@@ -6,10 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS3 Basics</title>
 
-    <!-- Etiqueta style para declarar el fichero css a utilizar -->
-    <link rel="stylesheet" href="css/styles.css">
-    <style>
+    <!-- Etiqueta link para declarar el fichero css a utilizar -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 
+    <!-- Etiqueta link para declarar el fichero icon a utilizar -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Etiqueta style para definir los estilos a utilizar -->
+    <style>
     </style>
 </head>
 
@@ -18,7 +22,7 @@
     <h2>Anatomía de un fichero CSS</h2>
     <p class="paragraph" id="firstParagraph">
         Dentro de la etiqueta <strong>&lt;head&gt;</strong> utilizamos la etiqueta <strong>&lt;link&gt;</strong> para indicar la ruta del fichero con nuestros estilos css.<br>
-        Por ejemplo: <strong>&lt;link rel="stylesheet" href="css/styles.css"&gt;</strong><br><br>
+        Por ejemplo: <strong>&lt;link rel="stylesheet" href="css/styles.css" type="text/css"&gt;</strong><br><br>
 
         <strong>body</strong> {
         <br>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -30,7 +34,7 @@
 
     <!-- Colores -->
     <h2>Colores</h2>
-    <p class="paragraph">
+    <p class="paragraph" id="secondParagraph">
         Utilizamos la propiedad <strong>color</strong>. Por ejemplo:<br><br>
 
         <strong>h2</strong> {
@@ -65,7 +69,98 @@
         <br>&nbsp;&nbsp;&nbsp;&nbsp;
         }
     </p>
+
+    <p class="paragraph changeParagraph">
+        <br>
+        El selector de tipo <em>id</em> tiene más importancia que el selector de tipo <em>class</em>. El selector de tipo <em>class</em> tiene más importancia que el selector general.<br>
+        Un elemento puede tener varias clases asociadas, pero sólo una id.<br><br>
+
+        Es posible utilizar un selector con eventos. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>.changeParagraph:hover</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>color: darkblue;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+    </p>
+
+    <p class="paragraph" id="thirdParagraph">
+        <br>
+        Podemos utilizar un selector de etiqueta dentro de un selector de id o de clase. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>thirdParagraph em</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>color: red;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+    </p>
+
+    <p class="paragraph">
+        <br>
+        Podemos utilizar un selector de atributo. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>input[type="text"]</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>background-color: #faf3dd;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>input[type="submit"]</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>background-color: greenyellow;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+    </p>
+
+    <form action="">
+        <label for="firstName">Nombre</label>
+        <input type="text" name="firstName" id=""><br>
+        <label for="lastName">Apellidos</label>
+        <input type="text" name="lastName" id=""><br>
+        <input type="submit" name="send" value="Enviar" id="">
+    </form>
+
+    <p class="paragraph">
+        <br>
+        También tenemos el selector universal <strong>*</strong>. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>*</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-family: 'Times New Roman', Times, serif;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+        <br><br>
+
+        Si agregamos la instrucción <strong>!important</strong> a una propiedad, indica que predomina sobre las demás que la sobreescriban. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>*</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-family: 'Times New Roman', Times, serif <strong>!important</strong>;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+    </p>
     <br>
+
+    <!-- Div -->
+    <h2>Capas</h2>
+    <p class="paragraph">
+        Para crear capas, usamos la etiqueta <strong>&lt;div&gt; &lt;/div&gt;</strong>. Todas las etiquetas contenidas bajo una capa, quedan agrupadas.<br>
+        Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>.paragraph</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>color: #1f7c76;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+    </p>
 </body>
 
 </html>
