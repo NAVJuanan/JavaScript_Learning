@@ -16,7 +16,7 @@
 <body>
     <!-- Anatomía de un fichero css -->
     <h2>Anatomía de un fichero CSS</h2>
-    <p>
+    <p class="paragraph" id="firstParagraph">
         Dentro de la etiqueta <strong>&lt;head&gt;</strong> utilizamos la etiqueta <strong>&lt;link&gt;</strong> para indicar la ruta del fichero con nuestros estilos css.<br>
         Por ejemplo: <strong>&lt;link rel="stylesheet" href="css/styles.css"&gt;</strong><br><br>
 
@@ -30,13 +30,39 @@
 
     <!-- Colores -->
     <h2>Colores</h2>
-    <p>
+    <p class="paragraph">
         Utilizamos la propiedad <strong>color</strong>. Por ejemplo:<br><br>
 
         <strong>h2</strong> {
         <br>&nbsp;&nbsp;&nbsp;&nbsp;
         <em>color: #66bfbf;</em>
         <br>
+        }
+    </p>
+    <br>
+
+    <!-- Selectores -->
+    <h2>Selectores</h2>
+    <p class="paragraph">
+        Utilizamos para habilitar selectores las propiedades <strong>class</strong> y también <strong>id</strong>.
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        La propiedad <strong>class</strong> nos permite agrupar elementos de uno o varios selectores bajo una misma clase. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>.paragraph</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>color: #1f7c76;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        La propiedad <strong>id</strong> nos permite diferenciar individualmente elementos de un mismo selector o clase. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>#firstParagraph</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>color: #163331;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
         }
     </p>
     <br>

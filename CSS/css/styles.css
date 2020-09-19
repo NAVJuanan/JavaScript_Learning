@@ -1,3 +1,5 @@
+/* Tag Selector */
+
 body {
     background-color: #eaf6f6;
 }
@@ -12,4 +14,18 @@ hr {
 
 h2  {
     color: #66bfbf;
+}
+
+/* Class Selector */
+.paragraph {
+    color:#1f7c76;
+}
+
+.list {
+    color:#81e6df;
+}
+
+/* Id Selector */
+#firstParagraph {
+    color: #163331;
 }
