@@ -7,6 +7,10 @@
 body {
     background-color: #eaf6f6;
     background-image: url(../images/bkg-css.jpg);
+    background-repeat: repeat-y;
+    background-size: 50% 25%;
+    background-position: right;
+    background-attachment: fixed;
 }
 
 hr {
@@ -19,6 +23,9 @@ hr {
 
 h2  {
     color: #66bfbf;
+    text-align: left;
+    line-height: 5%;
+    padding-left: 2%;
 }
 
 h6  {

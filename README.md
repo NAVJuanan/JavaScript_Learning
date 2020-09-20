@@ -15,6 +15,11 @@ HTML Tutorial:
 	https://devdocs.io/html/
 	https://www.w3schools.com/html/default.asp
 
+CSS Tutorial:
+	https://developer.mozilla.org/es/docs/Web/CSS
+	https://devdocs.io/css/
+	https://www.w3schools.com/css/default.asp
+
 
 Programs:
 
