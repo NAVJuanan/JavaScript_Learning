@@ -12,6 +12,9 @@
     <!-- Etiqueta link para declarar el fichero icon a utilizar -->
     <link rel="icon" href="images/favicon.ico">
 
+    <!-- Etiqueta link para declarar una fuente a utilizar -->
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+
     <!-- Etiqueta style para definir los estilos a utilizar -->
     <style>
     </style>
@@ -40,6 +43,13 @@
         <strong>h2</strong> {
         <br>&nbsp;&nbsp;&nbsp;&nbsp;
         <em>color: #66bfbf;</em>
+        <br>
+        }
+
+        <br><br>
+        <strong>h6</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>color: rgba(178, 76, 127, 1);</em>
         <br>
         }
     </p>
@@ -160,6 +170,65 @@
         <em>color: #1f7c76;</em>
         <br>&nbsp;&nbsp;&nbsp;&nbsp;
         }
+    </p>
+    <br>
+
+    <!-- Fuentes -->
+    <h2>Fuentes</h2>
+    <p class="paragraph">
+        Las propiedades más importantes del uso de fuentes son:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-family</em> para indicar la familia de fuentes
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-size</em> para indicar el tamaño de la fuente
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-weight</em> para indicar el peso de la fuente (negrita)
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-style</em> para indicar el estil de la fuente (cursiva)
+        <br><br>
+
+        Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>h5</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-size: 12px;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-weight: bold;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-style: italic;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+        <br><br>
+
+        Podemos utilizar fuentes externas mediante el uso de la etiqueta <strong>&lt;link&gt;</strong>.<br>
+        Por ejemplo: <strong>&lt;link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"&gt;</strong>
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="font1">Testeando la fuente</span>
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>#font1</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-family: 'Ranchers', cursive;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+        <br><br>
+
+        Podemos importar fuentes mediante la instrucción <strong>@font-face</strong>. Por ejemplo:
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <span id="font2">Testeando la fuente</span>
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <strong>@font-face</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>font-family: 'Roboto Mono Custom';</em> <strong>-> damos nombre a la fuente</strong>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>src: url(./fonts/Roboto_Mono/RobotoMono-Regular.ttf);</em> <strong>-> ruta local de la fuente</strong>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        }
+        <br>
     </p>
 </body>
 

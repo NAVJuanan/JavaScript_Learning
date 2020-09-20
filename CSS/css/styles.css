@@ -20,6 +20,11 @@ h2  {
     color: #66bfbf;
 }
 
+h6  {
+    color: rgba(178, 76, 127, 1);
+}
+
+
 /* Class Selector */
 .paragraph {
     color:#1f7c76;
@@ -52,4 +57,25 @@ input[type="submit"] {
 /* Event Class Selector */
 .changeParagraph:hover {
     color: darkblue;
+}
+
+/* Fonts */
+#font1 {
+    font-family: 'Ranchers', cursive !important;
+}
+
+@font-face {
+    font-family: 'Roboto Mono Custom';
+    src: url(./fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+
+#font2 {
+    font-family: 'Roboto Mono Custom' !important;
+}
+
+h5 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
 }
