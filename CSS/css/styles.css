@@ -87,3 +87,21 @@ h5 {
     font-weight: bold;
     font-style: italic;
 }
+
+/* Layers & Boxes */
+.box {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    border: 20px;
+    border-style: solid;
+    border-color: lightyellow;
+    margin: 45px;
+    float: left;
+}
+
+.clear-float {
+    float: none;
+    clear: both;
+}

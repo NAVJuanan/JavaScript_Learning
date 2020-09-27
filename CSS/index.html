@@ -196,21 +196,6 @@
     </p>
     <br>
 
-    <!-- Div -->
-    <h2>Capas</h2>
-    <p class="paragraph">
-        Para crear capas, usamos la etiqueta <strong>&lt;div&gt; &lt;/div&gt;</strong>. Todas las etiquetas contenidas bajo una capa, quedan agrupadas.<br>
-        Por ejemplo:
-        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
-
-        <strong>.paragraph</strong> {
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <em>color: #1f7c76;</em>
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;
-        }
-    </p>
-    <br>
-
     <!-- Fuentes -->
     <h2>Fuentes</h2>
     <p class="paragraph">
@@ -268,6 +253,62 @@
         }
         <br>
     </p>
+    <br>
+
+    <!-- Div y Span -->
+    <h2>Capas</h2>
+    <p class="paragraph">
+        Para crear capas, usamos la etiqueta <strong>&lt;div&gt; &lt;/div&gt;</strong>. Todas las etiquetas contenidas bajo una capa, quedan agrupadas.<br>
+        También podemos agrupar partes de textos como por ejemplo una parte de un párrafo por medio de la etiqueta <strong>&lt;span&gt; &lt;/span&gt;</strong>.<br><br>
+        El modelo de cajas sería:
+        <br><br>
+        <img src="./images/modelo-caja-css.jpg" alt="box model" width="500px">
+        <br><br>
+        Mediante la propiedad <strong>float</strong> podemos mover las diferentes cajas.
+        <br><br>
+        La propiedad <strong>display</strong> nos sirve para cambiar el comportamiento de los elementos, aunque tengan uno predeterminado.
+        <br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        Si usamos <em>block</em>, el elemento toma todo el ancho de la web bloqueándolo (paragraph, header, div, list, form).
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        Si usamos <em>inline</em>, el elemento sólo ocupa el espacio necesario tanto en alto como en ancho (span, img, anchor). No permite modificar ni el alto ni el ancho.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        Si usamos <em>inline-block</em>, el elemento sólo ocupa el espacio necesario tanto en alto como en ancho. Permite modificar el alto y el ancho.
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;
+        Si usamos <em>none</em>, el elemento desaparece.
+    </p>
+    <div class="box">
+        <p>Caja 1</p>
+    </div>
+    <div class="box">
+        <p>Caja 2</p>
+    </div>
+
+    <p class="paragraph">
+        <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;
+        <strong>.box</strong> {
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>background-color: lightblue;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>width: 150px;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>height: 150px;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>padding: 30px;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>border: 20px;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>border-style: solid;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>border-color: lightyellow;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>margin: 45px;</em>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <em>float: left;</em>
+        }
+    </p>
+
+    <div class="clear-float"></div>
+    <p>Hola</p>
 </body>
 
 </html>
