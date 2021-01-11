@@ -23,4 +23,7 @@ function changeColor() {
     } else {
         nodeHi.style.color = "black";
     }
+
+    // id selector = variable
+    bye.style.color = "blue";
 }
