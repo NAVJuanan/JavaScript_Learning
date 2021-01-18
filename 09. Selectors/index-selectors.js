@@ -11,6 +11,10 @@ console.log(nodeDiv);
 let nodeItem1 = document.querySelector(".item");
 console.log(nodeItem1);
 
+// query selector all
+let nodeItemAll = document.querySelectorAll(".item");
+console.log(nodeItemAll);
+
 // write html code
 nodeDiv.innerHTML = "<h2>Write div with 'innerHTML'</h2>";
 
