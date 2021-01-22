@@ -38,11 +38,26 @@ let nodeHi = document.querySelector("#hi");
 
 nodeEvent.addEventListener("click", function () {
     if (nodeHi.style.color === "black") {
-        nodeHi.style.color = "red";
+        nodeHi.style.color = "cyan";
     } else {
         nodeHi.style.color = "black";
     }
 
     // id selector = variable
-    bye.style.color = "blue";
+    bye.style.color = "yellow";
 });
+
+// use attribute
+let nodeAttribute = document.querySelector("#buttonAttribute");
+let nodeHi2 = document.querySelector("#hi");
+
+nodeAttribute.onclick = function () {
+    if (nodeHi2.style.color === "black") {
+        nodeHi2.style.color = "orange";
+    } else {
+        nodeHi2.style.color = "black";
+    }
+
+    // id selector = variable
+    bye.style.color = "green";
+};
