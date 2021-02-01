@@ -44,3 +44,5 @@ const anInterval1 = setInterval(function () {
 const anInterval2 = setInterval(() => {
     console.log('Interval arrow after 10 seconds')
 }, 10000);
+
+clearInterval(anInterval2); // stop interval
