@@ -39,6 +39,23 @@ for (entry of Object.entries(myObject)) {
     console.log(entry);
 }
 
+// clone object (assign)
+console.log(`clone object (assign)`);
+const myOtherObject = Object.assign({
+    color: "yellow",
+}, myObject);
+
+for (element in myOtherObject) {
+    console.log(element + " = " + myOtherObject[element]);
+}
+
+// clone object (... spread operator)
+console.log(`clone object (... spread operator)`);
+const myAnotherObject = { color: "red", ...myObject }
+
+for (element in myAnotherObject) {
+    console.log(element + " = " + myAnotherObject[element]);
+}
 
 console.table(myObject);
 myObject.drawRadius();
