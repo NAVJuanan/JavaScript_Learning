@@ -61,3 +61,12 @@ nodeAttribute.onclick = function () {
     // id selector = variable
     bye.style.color = "green";
 };
+
+// create elements & add children
+buttonAddLines.addEventListener("click", function () {
+    let nodeChild = document.createElement("p");
+    nodeChild.innerHTML = "un elemento";
+
+    let nodeAddLines = document.querySelector("#addLines");
+    nodeAddLines.appendChild(nodeChild);
+});
