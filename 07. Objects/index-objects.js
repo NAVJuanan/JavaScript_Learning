@@ -11,10 +11,10 @@ const myObject = {
     active: true,
     size: ["S", "M", "L"],
     radius: {
-    x: 5,
-    y: 2
+        x: 5,
+        y: 2
     },
-    drawRadius: function() {
+    drawRadius: function () {
         console.log(`drawRadius() function of myObject where 'radius' is 'x' = ${this.radius.x} and 'y' = ${this.radius.y}`);
         this.totalRadius = this.radius.x * this.radius.y;
     }
@@ -24,7 +24,13 @@ console.log("'myObject' contains the next properties and methods:", myObject);
 
 
 // looping object
+console.log(`for..in`);
 for (element in myObject) {
+    console.log(element + " = " + myObject[element]);
+}
+
+console.log(`for..of Object.keys()`);
+for (element of Object.keys(myObject)) {
     console.log(element + " = " + myObject[element]);
 }
 
