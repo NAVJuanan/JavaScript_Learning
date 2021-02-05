@@ -30,9 +30,15 @@ for (element in myObject) {
 }
 
 console.log(`for..of Object.keys()`);
-for (element of Object.keys(myObject)) {
-    console.log(element + " = " + myObject[element]);
+for (key of Object.keys(myObject)) {
+    console.log(key + " = " + myObject[key]);
 }
+
+console.log(`for..of Object.entries()`);
+for (entry of Object.entries(myObject)) {
+    console.log(entry);
+}
+
 
 console.table(myObject);
 myObject.drawRadius();
