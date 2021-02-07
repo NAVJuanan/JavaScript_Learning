@@ -406,6 +406,14 @@ Programs:
 		https://devdocs.io/javascript/global_objects/array/filter
 		https://www.w3schools.com/jsref/jsref_filter.asp
 
+	- map(function) -> returns an array with the result of applying the given function to every element
+		https://devdocs.io/javascript/global_objects/array/map
+		https://www.w3schools.com/jsref/jsref_map.asp
+
+	- reduce(function) -> returns a single value with the result of applying the given function to every element
+		https://devdocs.io/javascript/global_objects/array/reduce
+		https://www.w3schools.com/jsref/jsref_reduce.asp
+
 	- sort() -> sorts the elements of an array
 			-> previously converted into string
 		https://devdocs.io/javascript/global_objects/array/sort
