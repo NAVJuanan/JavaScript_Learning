@@ -394,9 +394,17 @@ Programs:
 		https://devdocs.io/javascript/global_objects/array/findindex
 		https://www.w3schools.com/jsref/jsref_findindex.asp
 
+	- every(test function) -> returns true/false if all the elements of an array satisfies the given test function
+		https://devdocs.io/javascript/global_objects/array/every
+		https://www.w3schools.com/jsref/jsref_every.asp
+
 	- some(test function) -> returns true/false if the array includes an element that satisfies the given test function
 		https://devdocs.io/javascript/global_objects/array/some
 		https://www.w3schools.com/jsref/jsref_some.asp
+
+	- filter(test function) -> returns an array that includes all the elements that satisfies the given test function
+		https://devdocs.io/javascript/global_objects/array/filter
+		https://www.w3schools.com/jsref/jsref_filter.asp
 
 	- sort() -> sorts the elements of an array
 			-> previously converted into string
